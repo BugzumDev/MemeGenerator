@@ -1,0 +1,56 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #202020;
+}
+
+.memeText_upper {
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    align-self: center;
+    font-family: Impact;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    font-size: 2em;
+}
+
+.memeText_bottom {
+    position: relative;
+    bottom: 90px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-family: Impact;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #00ff00;
+}
